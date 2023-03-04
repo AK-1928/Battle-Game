@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="pvsm.css">
+    <title>Guardian - play</title>
+</head>
+<body>
+    <div class="hp">
+        <div class="p-container">
+            <pre><h2>       Soldier       </h2></pre>
+            <progress  class="p-file" id="p-value" value="100" max="100"></progress>
+        </div>
+        <div>
+            <h2>V/S</h2>
+        </div>
+        <div class="m-container">
+            <pre><h2>       Terrorist       </h2></pre>
+            <progress class="m-file" id="m-value" value="100" max="100"></progress>
+        </div>
+    </div>
+    <div>
+    <div class="game">
+        <div class="Attack" onclick="OnclickAttack()" ondblclick="OneWinner()">
+            <button>Attack🥊</button>
+        </div>
+        <div class="Self-Heal" onclick="OnclickSelfHeal()" ondblclick="OneWinner()">
+            <button>Medicine🧰</button>
+        </div>    
+        <div class="Double-Attack" onclick="OnclickDoubleAttack()" ondblclick="OneWinner()">
+            <button>Double Attack💣</button>
+        </div>
+    </div>
+    <script src="pvsm.js"></script>
+</body>
+</html>
+

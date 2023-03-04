@@ -1,0 +1,131 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #36454F;
+}
+
+/* body{
+    display: gird;
+    grid-template-columns: 15% 60% 15%;
+    grid-template-rows: 10px 200px 400px;
+    grid-template-areas: "sp1 game sp2";
+} */
+
+.hp{
+    width: 55%;
+    height: 100px;
+    margin: 40px 300px 20px;
+    background-color: aliceblue;
+    display:inline-flex;
+    justify-content: space-between;
+    background-color: burlywood;
+}
+
+.p-container h2{
+    color: #2069e8;
+    text-decoration: solid;
+    text-decoration-line: underline;
+    padding: 5px;
+    margin: 2px;
+}
+
+.m-container h2{
+    color: #ff0000;
+    text-decoration: solid;
+    text-decoration-line: underline;
+    padding: 5px;
+    margin: 2px;
+}
+
+.p-file{
+    border-style: outset;
+    margin: 5px;
+    height: 30px;
+}
+
+.p-file::-webkit-progress-value{
+    background-color: #2069e8;
+}
+
+.m-file{
+    border-style: outset;
+    margin: 5px;
+    height: 30px;
+}
+
+.m-file::-webkit-progress-value{
+    background-color: #e82027;
+}
+
+.game{
+    width: 60%;
+    height: 80px;
+    margin: 50px auto;
+    background-color: rgb(220, 234, 174);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+.Attack{
+    /* background-color:rgb(214, 224, 32); */
+}
+
+.Self-Heal{
+    /* background-color:rgb(137, 190, 39); */
+}
+
+.Double-Attack{
+    /* background-color:rgb(233, 19, 19); */
+}
+
+.Attack button{
+  background-color: #c0c008; /* yellow */
+  border-radius: 50%;
+  color: rgb(10, 10, 10);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;  
+}
+
+.Self-Heal button{
+    background-color: #08c008; /* Green */
+    border-radius: 50%;
+    color: rgb(14, 14, 14);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;  
+    cursor: pointer;                   
+     }    
+
+
+.Double-Attack button{
+    background-color: #c00821; /* red */
+    border-radius: 50%;
+    color: rgb(7, 7, 7);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold; 
+    cursor: pointer;  
+    }
+
+.Winner{
+    color: aliceblue;
+    text-align: center;
+    font-size: larger   ;
+}
